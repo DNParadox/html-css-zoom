@@ -25,15 +25,14 @@ nav {
 main {
     margin-top: 60px;
     margin-bottom: 20px;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 80px);
     width: 100%;
-    background-color: blue;
+    overflow: auto;
 }
 
 .container {
     margin: 0 auto;
     width: 90%;
-    background-color: beige;
     display: flex;
     flex-wrap: wrap;
 }
@@ -45,9 +44,32 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0px 8px;
+    position: relative;
 }
 
+.contentcard {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    bottom: 22px;
+    padding: 3px;
+    font-size: 14px;
+}
 footer {
-    height: 150px;
+    height: 80px;
     background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+    padding-right: 10px;
 }
