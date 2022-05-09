@@ -3,9 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: black;
+    color:white;
+}
+
+
+nav {
+    position: absolute;
+    right: 5px;
+    top: 7px;  
+}
 .squaretop {
     background-color: #4a4a4a;
-    color:white;
+ 
     padding: 4px;
     border-radius: 6px;
+    font-size: 12px;
+}
+
+main {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: calc(100vh - 150px);
+    width: 100%;
+    background-color: blue;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-image: url(https://picsum.photos/246/146);
+    height: 120px;
+    width: 13%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 8px;
+}
+
+footer {
+    height: 150px;
+    background-color: #222222;
 }
